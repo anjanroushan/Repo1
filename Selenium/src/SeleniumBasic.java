@@ -9,6 +9,8 @@ public class SeleniumBasic {
 		driver.get("http://www.toolsqa.com");
 		driver.quit();
 		System.out.println("Quit the browser");
+		
+		
 
 	}
 
