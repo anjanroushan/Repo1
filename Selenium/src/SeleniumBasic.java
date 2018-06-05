@@ -8,7 +8,7 @@ public class SeleniumBasic {
 		System.setProperty("webdriver.gecko.driver", "G:\\Selenium jars2.42\\geckodriver-v0.16.1-win64\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://www.google.com");
-		driver.quit();
+		//driver.quit();
 		System.out.println("Quit the browser");
 		
 		
